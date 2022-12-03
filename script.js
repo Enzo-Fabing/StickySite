@@ -12,8 +12,9 @@ console.log(posYElement);
 window.addEventListener('scroll', (e) => {
     if (window.scrollY > posYElement - 50) {
         element.style.position = "fixed";
-        element.style.top = "100px";
-    } else if (window.scrollY < posYElement - 50) {
+        element.style.top = "50px";
+    } 
+    else if (window.scrollY < posYElement - 50) {
         element.style.position = "absolute";
         element.style.top = "45%";
     }
